@@ -1,0 +1,322 @@
+html{
+    font-family: 'Calibri', sans-serif;
+}
+
+body{
+    margin:auto;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.menu{
+
+    border: 1px solid black;
+    display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(20, 20, 20);
+    z-index: 2;
+}
+
+.elem-menu{
+    color: white;
+}
+
+.elem-menu:hover{
+    text-decoration: underline;
+}
+
+.header-main{
+    position: relative;
+}
+
+.header-main > img{
+    width: 100%;
+    filter: brightness(35%);
+}
+
+#text-header{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 12%;
+
+}
+
+.container-sobreNosaltres{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;*/
+    
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.marc{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.elSN1{
+    width: 100%;
+}
+
+.fila{
+    clear:both;
+}
+
+
+.elSN2{
+    /*width: 33%;*/
+    width: 33%;
+    float: left;
+    margin-right: 20px;    
+}
+
+.elSN2 > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.elSN3{
+    /*width: 64%;
+    margin-top: 10px;*/
+    width: 64%;
+    margin-top: 10px;
+    float:right;
+
+}
+
+.elSN4{
+    /*width: 66%;
+    margin-top: 10px;*/
+    width: 64%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;  
+}
+
+.elSN5{
+    /*width: 33%;*/
+    width: 33%;
+    margin-top: 10px;
+    float:right;
+}
+
+.elSN5 > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#title-carta{
+    clear:both;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+#container-carta{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: grid;
+    grid-template-columns: 9vw 24vw 24vw;
+    grid-template-rows: auto auto auto;
+    column-gap: 1.5vw;
+    row-gap: 2vw;
+    grid-template-areas: "elC1 elC1 elC1"
+                         "elC2 elC3 elC3"
+                         "elC2 elC4 elC5"
+                         "elC6 elC7 elC7"
+                         "elC6 elC8 elC9"
+
+}
+
+.overlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 0.7em;
+    text-align: center;
+}
+
+.elC1{
+    grid-area: elC1;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 14, 82);
+    color: white;
+}
+
+.elC2{
+    grid-area: elC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(50, 50, 255);
+}
+
+.elC3{
+    grid-area: elC3;
+}
+.elC3 > span > h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.elC4{
+    grid-area: elC4;
+    position: relative;
+}
+
+.elC4:hover .overlay{
+    opacity: 1;
+}
+
+.elC4 > img{
+    width: 100%;
+}
+
+.elC5{
+    grid-area: elC5;
+    position: relative;
+}
+.elC5 > img{
+    width: 100%;
+}
+
+.elC5:hover .overlay{
+    opacity: 1;
+}
+
+.elC6{
+    grid-area: elC6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(50, 50, 255);
+}
+
+.elC7{
+    grid-area: elC7;
+}
+
+.elC7 > span > h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elC8{
+    grid-area: elC8;
+    position: relative;
+}
+.elC8 > img{
+    width: 100%;
+}
+
+.elC8:hover .overlay{
+    opacity: 1;
+}
+
+.elC9{
+    grid-area: elC9;
+    position: relative;
+}
+.elC9 > img{
+    width: 100%;
+}
+
+.elC9:hover .overlay{
+    opacity: 1;
+}
+
+#container-galeria{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 19%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+#titol-galeria {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.marc-galeria{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.marc-galeria:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    filter: brightness(70%);
+}
+.foto-galeria{
+    width: 22%;
+    justify-content: space-between;  
+}
+.foto-galeria > img {
+width: 100%;
+}
+
+.foscor{
+    filter: brightness(35%);
+}
+
+
+.footer-main{
+    background-color: rgb(20, 20, 20);
+    padding: 0.5em;
+    display:flex;
+}
+
+.footer-Left{
+    color: white;
+    width: 50%;
+    display: flex;
+}
+
+.icon-mail{
+    color: white;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.icon-call{
+    color: white;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.footer-Right{
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5em;
+}
