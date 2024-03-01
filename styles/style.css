@@ -1,3 +1,5 @@
+/* For desktop */
+
 html{
     font-family: 'Calibri', sans-serif;
 }
@@ -49,13 +51,6 @@ h1 {
 }
 
 .container-sobreNosaltres{
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;*/
-    
     margin-top: 30px;
     margin-left: 20%;
     margin-right: 20%;
@@ -77,7 +72,6 @@ h1 {
 
 
 .elSN2{
-    /*width: 33%;*/
     width: 33%;
     float: left;
     margin-right: 20px;    
@@ -89,17 +83,13 @@ h1 {
 }
 
 .elSN3{
-    /*width: 64%;
-    margin-top: 10px;*/
     width: 64%;
     margin-top: 10px;
     float:right;
 
 }
 
-.elSN4{
-    /*width: 66%;
-    margin-top: 10px;*/
+.elSN4{  
     width: 64%;
     float: left;
     margin-right: 20px;
@@ -107,7 +97,6 @@ h1 {
 }
 
 .elSN5{
-    /*width: 33%;*/
     width: 33%;
     margin-top: 10px;
     float:right;
@@ -320,3 +309,52 @@ width: 100%;
     justify-content: flex-end;
     margin-right: 0.5em;
 }
+
+/* For tablets */
+
+@media only screen and (max-width: 768px) {
+
+    [class=menu]{
+        display:flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px;
+        font-size: 1.5em;
+        background-color: white;
+    }
+
+    [class=marc]{
+        border: 0px;
+    }
+
+    [class=elem-menu]{
+        color: black;
+    }
+
+    #text-header{
+        font-size: 1.2em;
+        top: 0;
+        left: 2em;
+    }
+
+    [class=container-sobreNosaltres]{
+        margin-top: 65px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    [class=elSN1]{
+        font-size: 1.7em;
+    }
+    [class=elSN2]{
+        width:100%
+    }
+    .elSN2 > img{
+        border-radius: 20px;
+    }
+    .elSN3{
+        width: 100%;
+    }
+
+}
+
