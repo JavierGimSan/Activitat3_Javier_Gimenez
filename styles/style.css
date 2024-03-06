@@ -355,6 +355,15 @@ width: 100%;
     .elSN3{
         width: 100%;
     }
+    [class=elSN5]{
+        width: 100%;
+    }
+    .elSN5 > img{
+        border-radius: 20px;
+    }
+    .elSN4{
+        width: 100%;
+    }
 
 }
 
