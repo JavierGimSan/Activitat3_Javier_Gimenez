@@ -354,6 +354,8 @@ width: 100%;
     }
     .elSN3{
         width: 100%;
+        font-size: 1.2em;
+        text-align: justify;
     }
     [class=elSN5]{
         width: 100%;
@@ -363,6 +365,8 @@ width: 100%;
     }
     .elSN4{
         width: 100%;
+        font-size: 1.2em;
+        text-align: justify;
     }
 
 }
