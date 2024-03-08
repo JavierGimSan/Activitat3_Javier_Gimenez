@@ -390,7 +390,9 @@ width: 100%;
 
     .overlay{
         opacity: 1;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        padding-right: 0.3em;
+        margin-bottom: 0.5em;
     }
     .elC1 {
         border-radius: 15px;
@@ -417,6 +419,18 @@ width: 100%;
     .elC7 > span{
         font-size: 1.5em;
     }
+    #container-galeria{
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        font-size: 2em;
+        gap: 1em;
+    }
+    .foto-galeria{
+        width: 44%;
+    }
+
 
 
     
