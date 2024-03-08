@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Calibri', sans-serif;
+    line-height: 1.5;
 }
 
 body{
@@ -354,7 +355,7 @@ width: 100%;
     }
     .elSN3{
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.5em;
         text-align: justify;
     }
     [class=elSN5]{
@@ -365,9 +366,66 @@ width: 100%;
     }
     .elSN4{
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.5em;
         text-align: justify;
     }
+    #title-carta{
+        margin-left: 10%;
+    }
+    #title-carta > h2{
+        font-size: 2.7em;
+    }
+    #container-carta{
+        margin-left: 10%;
+        grid-template-columns: 14vw 30vw 30vw;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "elC1 elC1 elC1"
+                             "elC2 elC3 elC3"
+                             "elC2 elC4 elC4"
+                             "elC2 elC5 elC5"
+                             "elC6 elC7 elC7"
+                             "elC6 elC8 elC8"
+                             "elC6 elC9 elC9"   
+    }
+
+    .overlay{
+        opacity: 1;
+        font-size: 1.2em;
+    }
+    .elC1 {
+        border-radius: 15px;
+    }
+    .elC1 > h3{
+        font-size: 1.7em;
+
+    }
+    .elC2 > span{
+        font-size: 1.5em;
+    }
+    .elC3 > span > h4{
+        font-size: 1.5em;
+    }
+    .elC3 > span{
+        font-size: 1.5em;
+    }
+    .elC6 > span{
+        font-size: 1.5em;
+    }
+    .elC7 > span > h4{
+        font-size: 1.5em;
+    }
+    .elC7 > span{
+        font-size: 1.5em;
+    }
+
+
+    
+        
+
+
+
+
+
 
 }
 
