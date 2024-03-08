@@ -430,6 +430,21 @@ width: 100%;
     .foto-galeria{
         width: 44%;
     }
+    .foto-galeria > img{
+        height: 100%;
+    }
+    .footer-Left{
+        width: 66%;
+        justify-content: center;           
+    }
+    .footer-Right{
+        width: 33%;
+        justify-content: center;    
+    }
+    footer > div{
+        font-size: 1.2em;
+    }
+    
 
 
 
