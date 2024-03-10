@@ -443,18 +443,66 @@ width: 100%;
     }
     footer > div{
         font-size: 1.2em;
-    }
-    
-
-
-
-    
-        
-
-
-
-
-
-
+    }    
 }
+
+@media only screen and (max-width: 576px){
+    .container-sobreNosaltres{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .elSN1{
+        text-align: center;
+    }
+
+    #title-carta{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #container-carta{
+        margin-left: 3%;
+        margin-right: 3%;
+        grid-template-columns: 94vw;
+        grid-template-rows: auto;
+        grid-template-areas: "elC2"
+                             "elC3"
+                             "elC4"
+                             "elC5"
+                             "elC6"
+                             "elC7"
+                             "elC8"
+                             "elC9"   
+    }
+
+    .elC1{
+        display: none;
+    }
+    .elC2{
+        padding: 2em;
+    }
+    .elC6{
+        padding: 2em;
+    }
+
+    #titol-galeria{
+        display: flex;
+        justify-content: center;
+    }
+    .foto-galeria{
+        width: 94%;
+    }
+    .footer-Right{
+        display: none;
+    }
+    .footer-Left{
+        width: 94%;
+        justify-content: flex-start;
+    }
+
+
+    
+}
+
 
